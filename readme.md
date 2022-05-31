@@ -9,7 +9,7 @@ Request examples:
 
 POST https://localhost:3000/
 Content-Type: application/json
-
+```json
 {
   "client": "ID",
   "method": "help.getCountriesList",
@@ -17,10 +17,13 @@ Content-Type: application/json
     "lang_code": "en"
   }
 }
+```
 
 POST https://localhost:3000/
 Content-Type: application/json
 
+
+```json
 {
   "client": "ID",
   "method": "auth.sendCode",
@@ -31,3 +34,4 @@ Content-Type: application/json
      }
   }
 }
+```
